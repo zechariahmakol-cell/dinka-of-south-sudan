@@ -55,15 +55,43 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+@media (max-width: 600px) {
+  .social-top {
+    justify-content: center;
+    gap: 12px;
   }
-  a:hover {
-    color: #747bff;
+
+  .social-top a {
+    font-size: 13px;
   }
-  button {
-    background-color: #f9f9f9;
+
+  .site-logo {
+    font-size: 21px;
+  }
+
+  .site-nav {
+    gap: 12px;
+  }
+
+  .site-nav a {
+    font-size: 14px;
+  }
+
+  .footer {
+    font-size: 14px;
+  }
+
+  .footer h2 {
+    font-size: 22px;
+  }
+
+  .footer h3 {
+    font-size: 17px;
+  }
+
+  .footer p,
+  .footer a {
+    font-size: 14px;
+    line-height: 1.6;
   }
 }
