@@ -62,36 +62,84 @@ button:focus-visible {
   }
 
   .social-top a {
-    font-size: 13px;
+    font-size: 14px;
   }
 
-  .site-logo {
-    font-size: 21px;
+  .navigation-row {
+    padding: 15px 4%;
+  }
+
+  .site-logo img {
+    height: 50px;
   }
 
   .site-nav {
-    gap: 12px;
+    gap: 14px;
   }
 
   .site-nav a {
-    font-size: 14px;
+    font-size: 16px;
+  }
+
+  .page-header {
+    padding: 45px 6%;
+  }
+
+  .page-header h1 {
+    font-size: 32px;
+  }
+
+  .page-header p {
+    font-size: 17px;
+    line-height: 1.7;
+  }
+
+  .home-hero h1 {
+    font-size: 36px;
+  }
+
+  .home-hero p {
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+  .about-card,
+  .culture-card,
+  .article-card,
+  .history-card {
+    font-size: 17px;
+  }
+
+  .about-card p,
+  .culture-card p,
+  .article-card p,
+  .history-card p {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+
+  .about-card h2,
+  .culture-card h2,
+  .article-card h2,
+  .history-card h2 {
+    font-size: 24px;
   }
 
   .footer {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .footer h2 {
-    font-size: 22px;
+    font-size: 23px;
   }
 
   .footer h3 {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .footer p,
   .footer a {
-    font-size: 14px;
-    line-height: 1.6;
+    font-size: 15px;
+    line-height: 1.7;
   }
 }
