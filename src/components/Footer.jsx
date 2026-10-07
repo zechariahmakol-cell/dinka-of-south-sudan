@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 function Footer() {
   return (
     <footer className="footer">
@@ -17,11 +18,11 @@ function Footer() {
         <div className="footer-links">
           <h3>Quick Links</h3>
 
-          <a href="/">Home</a>
-          <a href="/about-dinka">About Dinka</a>
-          <a href="/culture">Culture</a>
-          <a href="/articles">Articles</a>
-          <a href="/contact">Contact</a>
+         <NavLink to="/">Home</NavLink>
+        <NavLink to="/about-dinka">About Dinka</NavLink>
+        <NavLink to="/culture">Culture</NavLink>
+        <NavLink to="/articles">Articles</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
         </div>
 
 
