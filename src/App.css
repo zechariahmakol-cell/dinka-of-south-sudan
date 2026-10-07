@@ -1725,7 +1725,32 @@ a {
     height: 240px;
   }
 }
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 40px 8%;
+  }
 
+  .footer-about,
+  .footer-links,
+  .footer-contact {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .footer-about p,
+  .footer-links a,
+  .footer-contact p {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    padding: 20px 8%;
+  }
 .gallery-item img {
   width: 100%;
   height: 280px;
